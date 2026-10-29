@@ -1,0 +1,5 @@
+Options -Indexes
+RewriteEngine On
+
+RewriteRule ^(?:classes|config|database)(?:/|$) - [F,L,NC]
+RewriteRule (^|/)\.(?!well-known/) - [F,L]

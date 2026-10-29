@@ -1,0 +1,6 @@
+.env
+.env.local
+config/credentials.php
+*.log
+.DS_Store
+Thumbs.db
